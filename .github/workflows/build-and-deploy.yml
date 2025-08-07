@@ -34,11 +34,5 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      - name: Build the book
-        run: jupyter-book build 
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-
       - name: Deploy
         run: echo "Deploy step here" # Replace with your actual deploy command, LIKELY DOCKER OR AWS-RELATED...WE'LL GET ON TO THAT
