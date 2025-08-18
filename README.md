@@ -25,3 +25,6 @@ I am using the Azure Open AI chatbot as I have previous experience with it, it i
 I am using terraform for the deployment of the resources which is key as this will be solution that is set up across different cloud platforms.
 The infrastructure code will be separate, all deplyments will be excecuted using CI/CD pipelines, created using Github Actions.
 Finally, I aim to monitor the performance of my platform using Prometheus or Grafana. How, I'm not sure yet, still learning lol
+
+Embedding an Azure AI component while deploying using AWS: https://sen-abby.medium.com/ai-agent-deployment-guide-490caf02cf39
+
